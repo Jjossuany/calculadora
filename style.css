@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(6px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    background: rgba(30, 30, 30, 0.85); /* Cinza escuro opaco */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .display {
+    background: rgba(50, 50, 50, 0.8); /* Cinza médio */
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #e3e7e6; /* Verde claro para contraste */
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    height: 50px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(80, 80, 80, 0.85); /* Cinza escuro suave */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  button:hover {
+    background-color: rgba(100, 100, 100, 0.95);
+    transform: scale(1.05);
+  }
+  
+  
